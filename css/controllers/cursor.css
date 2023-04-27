@@ -1,0 +1,48 @@
+:root {
+    --cor-cursor-botao:rgb(255, 253, 253);
+    --cor-cursor-slider: rgb(80, 80, 80);
+    --altura-cursor: 0.35em;
+}
+
+
+#cursor {
+    width: 75%;
+}
+
+
+#cursor::-webkit-slider-thumb {
+    border: 0.1em solid black;
+    background-color: var(--cor-cursor-botao);
+}
+
+
+#cursor::-moz-range-thumb {
+    background-color: var(--cor-cursor-slider);
+    border: none;
+}
+
+
+#cursor::-ms-thumb {
+    background-color: var(--cor-cursor-slider);
+    border: none;
+}
+
+
+#cursor::-ms-track {
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+
+#cursor::-webkit-slider-runnable-track {
+    background-color: var(--cor-cursor-slider);
+    height: var(--altura-cursor);
+}
+
+
+#cursor::-moz-range-track {
+    background-color: var(--cor-cursor-slider);
+    height: var(--altura-cursor);
+}
+  
