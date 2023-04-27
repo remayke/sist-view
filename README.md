@@ -5,7 +5,7 @@ This is a web-based project that enables users to view video and photo footage h
 With its user-friendly interface and robust functionality, this project is a valuable asset for anyone working with video and photo footage in a research context.
 <br/><br/>
 
-![example](https://raw.githubusercontent.com/victordalosto/sist-viewer/master/readme/print.png)
+![example](https://raw.githubusercontent.com/remayke/sist-view/main/readme/print.png)
 
 The software was developed using Javascript and Node, consuming data from a JAVA-SPRING API.<br/><br/>
 
